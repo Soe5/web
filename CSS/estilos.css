@@ -1,0 +1,287 @@
+/* :) */
+.contenedor{
+    padding-top: 7px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.navegacion a:hover {
+    color: #00ebc2;
+}
+.mobile-menu img {
+    width: 5rem;
+}
+@media (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+.navegacion:target {
+    display: block;
+}
+.navegacion {
+    display: none;
+}
+@media (min-width: 768px) {
+    .navegacion {
+        display: block;
+    }
+}   
+    /**/
+@media (min-width: 768px)  {
+    .iconos-nosotros {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.icono {
+    text-align: center;
+    font-size: 16px;
+}
+@media (min-width: 768px){
+    .icono {
+        flex-basis: calc(33.3% - 1rem);
+    }
+}
+.icono h3 {
+    text-transform: uppercase;
+    padding-top: 7px;
+}
+
+
+/*boton ver todas*/
+.ver-todas{
+    padding: 30px;
+    
+    text-align: center;
+}
+.un-boton {
+    text-decoration: none;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 0 0 100%;
+
+    font-size: 14px 0;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+
+@media (min-width: 758px) {
+    .un-boton {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+.un-boton:hover {
+    cursor: pointer;
+    background: #00CFE1;
+    color: #fff;
+}
+.un-boton {
+    background-color: #00ebc2;
+    color: #fff;
+    font-size: 14px 0;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+/**/
+.section-m1{
+    padding-top: 7px;
+    padding: 50px 0;
+    background-image: url(../img/11.jpeg);
+    background-position: center center;
+}
+.section-m1 h4{
+    color: #fff;
+    font-size: 16px;
+}
+.section-m1 h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.section-m1 button:hover{
+    background: #7532B5;
+    color: #fff;
+}
+
+button.normal{
+    font-size: 14px 0;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+@media (max-width: 477px) {
+    #banner{
+        height: 40vh;
+    }
+}
+.container-post .posts .circle{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #0094c68a;
+    font-weight: 500;
+    color: #0093C6;
+    border: 1px solid #7532B5;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+/*efecto hover con imagenes*/
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    
+}
+
+.box{
+    flex: 1;
+    overflow: hidden;
+    margin: 8px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.20);
+    line-height: 0;
+    transition: all 600ms;
+}
+
+.box > img{
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: all 300ms;
+}
+
+.box:hover{
+    flex: 50%;
+}
+
+.box:hover > img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Info del juego*/
+.single-pro-details{
+    margin-top: 50px;
+}
+#prodetails{
+    display: flex;
+    margin-top: 40px;
+}
+
+.single-pro-details .star i{
+    font-size: 15px;
+    color: rgba(243, 181, 25);
+}
+
+#prodetails .single-pro-image{
+    margin-top: 50px;
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    
+
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#prodetails .single-pro-details h1{
+    font-size: 30px;
+    
+    padding: 10px;
+}
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+#prodetails .single-pro-details button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #46a2fd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+    
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 32px;
+    }
+
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #prodetails .single-pro-details {
+        width: 50%;
+        margin-right: 30px;
+    }
+}
